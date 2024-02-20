@@ -1,4 +1,11 @@
 
+.info{
+    text-align: left top;
+    text-size-adjust: 150%;
+    font-size: 12;
+    color: #495057;
+}
+
 .btn-encrip-desencrip{
     width: 680px;
     height: 67px;
