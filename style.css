@@ -1,0 +1,13 @@
+
+footer{
+    padding: 10px;
+    text-align: center;
+}
+.redes{
+    width: 30px;
+    margin: 10px 2px 0px 2px;
+}
+
+.redes:hover{
+    transform: scale(1.2);
+}
