@@ -46,8 +46,8 @@ body{
     background: white;
     display: inline-block;    
     border-radius: 32px;
-    width: fit-content;
-    height: 944px; /*fit en media*/
+    width: 400px;
+    height: 944px;
     padding: 32px;    
     box-sizing: border-box;
     margin-left: 80px;
