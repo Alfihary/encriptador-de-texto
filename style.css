@@ -5,14 +5,15 @@ body{
 }
 
 .frame6{
+    display: flex;
+    justify-content: center;
     width: 120px;
     height: 48px;
-    align-items: center;
     margin: 40px;
 }
 
 .logo{
-    width: 30px;
+    width: 48px;
 }
 
 .input{
