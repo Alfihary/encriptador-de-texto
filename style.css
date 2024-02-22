@@ -10,6 +10,11 @@ body{
     align-items: center;
     margin: 40px;
 }
+
+.logo{
+    width: 30px;
+}
+
 .input{
     display: inline-block;
     
