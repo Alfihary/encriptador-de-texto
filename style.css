@@ -21,6 +21,10 @@ body{
     
 }
 
+#entrada-texto{
+    resize: none;
+}
+
 .info{
     text-align: left;
     vertical-align: top;
