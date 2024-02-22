@@ -29,6 +29,8 @@ body{
 }
 
 .btn-encrip-desencrip{
+    display: flex;
+    justify-content: space-around;
     width: 680px;
     height: 67px;
     top: 885px;
