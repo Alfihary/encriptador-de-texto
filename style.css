@@ -8,6 +8,7 @@ body{
     width: 120px;
     height: 48px;
     align-items: center;
+    margin: 40px;
 }
 .input{
     display: inline-block;
