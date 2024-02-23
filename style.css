@@ -1,3 +1,13 @@
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 900
+
+.merienda-<uniquifier> {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body{        
     background:#E0F2FE;    
     margin: 0;
@@ -28,6 +38,7 @@ body{
     width: 680px;
     height: 300px;
     font-size: 16PX;
+    font-family: "Merienda", cursive;
     color: #0369A1;
     background-color: transparent;
     border: none;
@@ -41,6 +52,7 @@ body{
 .info{
     text-align: left;
     vertical-align: top;
+    font-family: ;
     font-size: 12;
     color: rgba(73, 80, 87, 0.726);
 }
