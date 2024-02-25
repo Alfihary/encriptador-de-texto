@@ -1,12 +1,12 @@
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 300 to 900
+/* <uniquifier>: Use a uniquifier for the class name
+   <weight>: Use a value from 300 to 900 
 
 .merienda-<uniquifier> {
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
+}*/
 
 body{        
     background:#E0F2FE;    
@@ -99,7 +99,7 @@ body{
 }
 .salida{
     background: #F0F9FF;
-    display: inline-block;    
+    display: inline-block;  
     border-radius: 32px;
     width: 400px;
     height: 944px;
@@ -107,6 +107,30 @@ body{
     box-sizing: border-box;
     margin-left: 80px;
     box-shadow: 0px 24px 32px -8px rgba(7, 89, 133, 0.562);
+}
+
+.muñeco{
+    position: absolute;
+    top: 180px;
+    z-index: 1;
+}
+
+#leyenda{
+    position: absolute;
+    font-family: "Merienda", cursive;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    top: 600px;
+    z-index: 2;
+}
+
+#leyenda1{
+    position: absolute;
+    font-family: "Merienda", cursive;
+    align-content: center;
+    top: 700px;
+    z-index: 3;
 }
 .salida-texto{
     width: 336px;
