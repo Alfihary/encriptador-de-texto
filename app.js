@@ -54,3 +54,18 @@ function desEncriptar(strDesEncriptar){
     }
     return strDesEncriptar
 }
+
+//funcion para copiar el contenido del texarea de salida
+
+function copiarTexto(){
+    const texAreaSalida = document.getElementsByClassName("salida-texto");
+    texAreaSalida.select();
+
+    document.execCommand("copy");
+
+    alert("Texto copiado");
+
+    setTimeout(() => {
+        window.close();
+    },2000);
+}
