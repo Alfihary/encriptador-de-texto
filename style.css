@@ -99,6 +99,7 @@ body{
     width: 328px;
     height: 67px;
     font-family: "Merienda", cursive;
+    cursor: pointer;
     font-size: 16px;
     color: #0369A1;
     border-radius: 24px;
@@ -159,6 +160,7 @@ body{
     height: 67px;
     font-size: 16px;
     font-family: "Merienda", cursive;
+    cursor: pointer;
     color: #F0F9FF;
     border-radius: 24px;
     border-width: 1px;
