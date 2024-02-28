@@ -17,13 +17,13 @@
                 <img src="resources/logo.png" class="logo">
                 </section>
                 <section class="input">
-                    <textarea id="entrada-texto" placeholder="Ingrese el texto aquí" name="mensaje"></textarea>
+                    <textarea class="entrada-texto" placeholder="Ingrese el texto aquí" name="mensaje"></textarea>
                     <div>
                         <img src="resources/bi_exclamation-circle-fill.png" id="exclamacion"><label class="info">Solo letras minúsculas y sin acentos</label>
                     </div>
                     
                     <div class="btn-encrip-desencrip">
-                        <button class="encriptar">Encriptar</button>
+                        <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
                         <button class="desencriptar">Desencriptar</button>
                     </div>
                 </section>
@@ -35,11 +35,13 @@
                     <textarea class="salida-texto" ></textarea>
                     <button class="copiar">Copiar</button>
             </section>
-        </main>   
+        </main>
+        <script src="app.js"></script>   
     </body>
     <footer>
         <p>Code by Jesús Guevara M.</p>
         <a href="https://github.com/Alfihary"><img src="resources/github.png" class="redes"></a>
         <a href="https://www.linkedin.com/in/jesus-guevara-06b524275/"><img src="resources/linkedin.png" class="redes"></a>
     </footer>
+
 </html>
