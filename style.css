@@ -10,14 +10,12 @@
 
 body{        
     background:#E0F2FE;    
-    margin: 0;
-    padding: 0;
 }
 
 .contenedor{
     display: grid;
-    grid-template-columns: 6% 6% auto auto;
-    grid-template-rows: 4% 4% 60%
+    grid-template-columns: 6% 6% 55vi auto;
+    grid-template-rows: 5vh 7vh 76vh
 }
 .frame6{
     grid-column: 1/3;
@@ -40,14 +38,14 @@ body{
     flex-direction: column;
     justify-content: space-between;
 
-    padding: 32px 22px 32px;
+    padding: 32px 22px 32px 0PX;
     width: 680px;
     
 }
 
 .entrada-texto{
-    width: 680px;
-    height: 300px;
+    width: 55vi;
+    height: 52vh;
     font-size: 16PX;
     font-family: "Merienda", cursive;
     color: #0369A1;
@@ -71,7 +69,7 @@ body{
 .btn-encrip-desencrip{
     display: flex;
     justify-content: space-around;
-    width: 680px;
+    width: 55vi;
     height: 67px;
     top: 885px;
     left: 240px;
@@ -79,7 +77,7 @@ body{
 }
 
 .encriptar{
-    width: 328px;
+    width: 45vw;
     height: 67px;
     font-family: "Merienda", cursive;
     cursor: pointer;
@@ -96,7 +94,7 @@ body{
 }
 
 .desencriptar{
-    width: 328px;
+    width: 45vw;
     height: 67px;
     font-family: "Merienda", cursive;
     cursor: pointer;
@@ -116,7 +114,7 @@ body{
     background: #F0F9FF;  
     border-radius: 32px;
     width: 400px;
-    height: 889px;
+    height: 81vh;
     padding: 32px;    
     box-sizing: border-box;
     box-shadow: 0px 24px 32px -8px rgba(7, 89, 133, 0.562);
@@ -129,7 +127,8 @@ body{
     font-size: 19px;
     font-weight: bold;
     text-align: center;
-    top: 600px;
+    height: auto;
+    top: 10vh;
     z-index: 2;
 }
 
@@ -137,12 +136,12 @@ body{
     position: absolute;
     font-family: "Merienda", cursive;
     align-content: center;
-    top: 700px;
+    top: 64vh;
     z-index: 3;
 }
 .salida-texto{
-    width: 336px;
-    height: 781px;
+    width: 100%;
+    height: 62vh;
     font-family: "Merienda", cursive;
     font-size: 16px;
     color: #0369A1;
@@ -152,6 +151,7 @@ body{
     background-position: center;
     border: none;
     outline: none;
+    resize: none;
 }
 
 .copiar{
@@ -168,11 +168,14 @@ body{
     padding: 24px;
     gap: 8px;
     background-color: #0369A1;
+    
 
 }
 footer{
     padding: 10px;
     text-align: center;
+    background-color: rgb(24, 114, 187);
+    box-shadow: #0369A1;
 }
 .redes{
     width: 30px;
