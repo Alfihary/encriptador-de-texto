@@ -56,6 +56,10 @@ function btnDesEncriptar(){
     const textoDesEncriptar = desEncriptar(entradaTexto.value)
     salidaTexto.value = textoDesEncriptar
     entradaTexto.value ="";
+    salidaTexto.style.backgroundImage ="none";
+    texto1.style.visibility = "hidden";
+    texto2.style.visibility = "hidden";
+    btncopiar.style.visibility = "visible";
 }
 
 function desEncriptar(strDesEncriptar){
