@@ -130,7 +130,10 @@ body{
     box-shadow: 0px 24px 32px -8px rgba(7, 89, 133, 0.562);
 }
 
-
+.leyendas{
+   align-items: center;
+   justify-content: center;
+}
 #leyenda{
     position: absolute;
     font-family: "Merienda", cursive;
