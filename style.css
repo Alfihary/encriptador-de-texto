@@ -93,6 +93,11 @@ body{
 
 }
 
+.encriptar:hover{
+    transition-duration: 3s;
+    transform:scale(1.1);
+}
+
 .desencriptar{
     width: 45vw;
     height: 67px;
@@ -107,6 +112,11 @@ body{
     gap: 8px;
     border-color: #2677A3;
     background-color: #BAE6FD;
+}
+
+.desencriptar:hover{
+    transition-duration: 3s;
+    transform:scale(1.1);
 }
 .salida{
     grid-column: 4/5;
@@ -130,6 +140,7 @@ body{
     height: auto;
     top: 10vh;
     z-index: 2;
+    
 }
 
 #leyenda1{
@@ -168,14 +179,17 @@ body{
     padding: 24px;
     gap: 8px;
     background-color: #0369A1;
-    
+    visibility:hidden;
+}
 
+.copiar:hover{
+    transition-duration: 3s;
+    transform:scale(1.1);
 }
 footer{
     padding: 10px;
     text-align: center;
-    background-color: rgb(24, 114, 187);
-    box-shadow: #0369A1;
+
 }
 .redes{
     width: 30px;

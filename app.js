@@ -1,5 +1,8 @@
 const entradaTexto = document.querySelector(".entrada-texto");
 const salidaTexto = document.querySelector(".salida-texto");
+const texto1 = document.getElementById("leyenda");
+const texto2 =document.getElementById("leyenda1");
+const btncopiar = document.querySelector(".copiar");
 //     Laves de encriptacion
 //La letra "a" es convertida para "ai"
 //La letra "e" es convertida para "enter"
@@ -7,11 +10,26 @@ const salidaTexto = document.querySelector(".salida-texto");
 //La letra "o" es convertida para "ober"
 //La letra "u" es convertida para "ufat"
 
+
 //funcion para encriptar eltexto con las llaves de encriptacion
 
 function btnEncriptar(){
-    const textoEncriptar = encriptar(entradaTexto.value)
-    salidaTexto.value = textoEncriptar
+    const textoEntrada = document.querySelector(".entrada-texto");
+    const contenido = textoEntrada.value;
+    const patron = /^[a-z\s]+$/;
+
+    if (patron.test(contenido)) {
+        const textoEncriptar = encriptar(entradaTexto.value)
+        salidaTexto.value = textoEncriptar
+        entradaTexto.value ="";
+        salidaTexto.style.backgroundImage ="none";
+        texto1.style.visibility = "hidden";
+        texto2.style.visibility = "hidden";
+        btncopiar.style.visibility = "visible";
+
+    } else{
+        alert("El texto contiene caracteres no permitidos.");
+    }
 }
 
 function encriptar(strEncriptado){
@@ -33,9 +51,11 @@ function encriptar(strEncriptado){
 
 //funcion para desencriptar el texto con las llaves de encriptacion    
 }
+
 function btnDesEncriptar(){
     const textoDesEncriptar = desEncriptar(entradaTexto.value)
     salidaTexto.value = textoDesEncriptar
+    entradaTexto.value ="";
 }
 
 function desEncriptar(strDesEncriptar){
