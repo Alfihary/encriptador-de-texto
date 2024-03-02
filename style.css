@@ -14,7 +14,7 @@ body{
 
 .contenedor{
     display: grid;
-    grid-template-columns: 6% 6% 55vi auto;
+    grid-template-columns: 4vi 4vi 55vi 52vi;
     grid-template-rows: 5vh 7vh 76vh
 }
 .frame6{
@@ -39,7 +39,7 @@ body{
     justify-content: space-between;
 
     padding: 32px 22px 32px 0PX;
-    width: 680px;
+    width: 100vh;
     
 }
 
@@ -131,28 +131,21 @@ body{
 }
 
 .leyendas{
-    display: flex;
-   align-items: center;
-   justify-content: center;
+    display: grid;
+    place-items: center;
+    
 }
 #leyenda{
-    position: absolute;
     font-family: "Merienda", cursive;
     font-size: 19px;
     font-weight: bold;
-    text-align: center;
-    height: auto;
     top: 10vh;
-    z-index: 2;
-    
 }
 
 #leyenda1{
-    position: absolute;
     font-family: "Merienda", cursive;
-    align-content: center;
+    text-align: center;
     top: 64vh;
-    z-index: 3;
 }
 .salida-texto{
     width: 100%;
@@ -202,4 +195,16 @@ footer{
 
 .redes:hover{
     transform: scale(1.2);
+}
+
+
+/*Vista para Tablet */
+@media (min-width:480px) and (max-width:768px){
+
+
+}
+
+/*vista para celulares*/
+@media (min-width:380px) and (max-width:480px){
+
 }
