@@ -207,7 +207,7 @@ footer{
 
 
 /*Vista para Tablet */
-@media (min-width:380px) and (max-width:768px){
+@media (min-width:370px) and (max-width:768px){
 
     .contenedor{
         display: grid;
