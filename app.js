@@ -88,7 +88,6 @@ function copiarTexto(){
     document.execCommand("copy");
 
     salidaTexto.value ="";
-    salidaTexto.style.backgroundImage ="url(resources/Muñeco.png)";
     texto1.style.visibility = "visible";
     texto2.style.visibility = "visible";
     btncopiar.style.visibility = "hidden";
