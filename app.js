@@ -31,7 +31,6 @@ function btnEncriptar(){
         alert("El texto contiene caracteres no permitidos.");
     }
 }
-
 function encriptar(strEncriptado){
     let llaveEncriptacion =[
         ["e","enter"],
@@ -64,9 +63,9 @@ function btnDesEncriptar(){
 
 function desEncriptar(strDesEncriptar){
     let llaveDesEncriptar =[
-        ["enter","e"],
-        ["imes","i"],
         ["ai","a"],
+        ["imes","i"],
+        ["enter","e"],
         ["ober","o"],
         ["ufat","u"]
     ]
