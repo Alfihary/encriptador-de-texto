@@ -212,7 +212,7 @@ footer {
 
 
 /*Vista para Tablet */
-@media (min-width:768px) and (max-width:1174px) {
+@media (min-width:350px) and (max-width:768px) {
 
     .contenedor {
         display: grid;
@@ -274,21 +274,6 @@ footer {
         width: auto;
         height: 47px;
         padding: 2px;
-
     }
 
-
-}
-
-@media (min-width:375px) and (max-width:933px) {
-
-    .contenedor {
-        display: grid;
-        grid-template-columns: 100vi;
-        grid-template-rows: 5vh 7vh 76vh
-    }
-
-    .frame6 {
-        align-content: flex-start;
-    }
 }
