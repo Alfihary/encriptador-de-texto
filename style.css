@@ -8,42 +8,43 @@
   font-style: normal;
 }*/
 
-body{        
-    background:#E0F2FE;    
+body {
+    background: #E0F2FE;
 }
 
-.contenedor{
+.contenedor {
     display: grid;
     grid-template-columns: 4vi 4vi 55vi 52vi;
     grid-template-rows: 5vh 7vh 76vh
 }
-.frame6{
+
+.frame6 {
     grid-column: 1/3;
     grid-row: 1/2;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 170%;
-    
+
 }
 
-.logo{
+.logo {
     width: 48px;
 }
 
-.input{
+.input {
     grid-column: 2/4;
     grid-row: 3/4;
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
 
     padding: 32px 22px 32px 0PX;
     width: 100vh;
-    
+
 }
 
-.entrada-texto{
+.entrada-texto {
     width: 55vi;
     height: 52vh;
     font-size: 16PX;
@@ -55,10 +56,11 @@ body{
     outline: none;
 }
 
-#exclamacion{
+#exclamacion {
     margin: 0px 5px 0px 0px;
 }
-.info{
+
+.info {
     text-align: left;
     vertical-align: top;
     font-family: "Merienda", cursive;
@@ -66,7 +68,7 @@ body{
     color: rgba(73, 80, 87, 0.726);
 }
 
-.btn-encrip-desencrip{
+.btn-encrip-desencrip {
     display: flex;
     justify-content: space-around;
     width: 55vi;
@@ -76,7 +78,7 @@ body{
     gap: 24px;
 }
 
-.encriptar{
+.encriptar {
     width: 45vw;
     height: 67px;
     font-family: "Merienda", cursive;
@@ -93,12 +95,12 @@ body{
 
 }
 
-.encriptar:hover{
+.encriptar:hover {
     transition-duration: 3s;
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
 
-.desencriptar{
+.desencriptar {
     width: 45vw;
     height: 67px;
     font-family: "Merienda", cursive;
@@ -114,23 +116,24 @@ body{
     background-color: #BAE6FD;
 }
 
-.desencriptar:hover{
+.desencriptar:hover {
     transition-duration: 3s;
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
-.salida{
+
+.salida {
     grid-column: 4/5;
     grid-row: 2/3;
-    background: #F0F9FF;  
+    background: #F0F9FF;
     border-radius: 32px;
     width: 400px;
     height: 81vh;
-    padding: 32px;    
+    padding: 32px;
     box-sizing: border-box;
     box-shadow: 0px 24px 32px -8px rgba(7, 89, 133, 0.562);
 }
 
-.salida-texto{
+.salida-texto {
     width: 100%;
     height: 48vh;
     font-family: "Merienda", cursive;
@@ -147,14 +150,14 @@ body{
 
 
 
-.leyendas{
+.leyendas {
     display: flex;
     flex-direction: column;
-  justify-content: center;
-    
+    justify-content: center;
+
 }
 
-#leyenda{
+#leyenda {
     font-family: "Merienda", cursive;
     font-size: 19px;
     text-align: center;
@@ -163,14 +166,14 @@ body{
     top: 10vh;
 }
 
-#leyenda1{
+#leyenda1 {
     font-family: "Merienda", cursive;
     text-align: center;
     top: 64vh;
     color: rgba(73, 80, 87, 0.726);
 }
 
-.copiar{
+.copiar {
     width: 328px;
     height: 67px;
     font-size: 16px;
@@ -184,74 +187,76 @@ body{
     padding: 24px;
     gap: 8px;
     background-color: #0369A1;
-    visibility:hidden;
+    visibility: hidden;
 }
 
-.copiar:hover{
+.copiar:hover {
     transition-duration: 3s;
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
-footer{
+
+footer {
     padding: 10px;
     text-align: center;
 
 }
-.redes{
+
+.redes {
     width: 30px;
     margin: 10px 2px 0px 2px;
 }
 
-.redes:hover{
+.redes:hover {
     transform: scale(1.2);
 }
 
 
 /*Vista para Tablet */
-@media (min-width:768px) and (max-width:1174px){
+@media (min-width:768px) and (max-width:1174px) {
 
-    .contenedor{
+    .contenedor {
         display: grid;
-        grid-template-columns: 4vi 4vi 92vi 4vi;
+        grid-template-columns: 100vi;
         grid-template-rows: 5vh 7vh 45vh 45vh
     }
 
-    .input{
+    .input {
         grid-column: 2/4;
         grid-row: 3/4;
-        display:inline-flex;
+        display: inline-flex;
         flex-direction: column;
         justify-content: space-between;
         width: auto;
         padding: 15px 22px 15px 0PX;
     }
 
-    .entrada-texto{
+    .entrada-texto {
         width: auto;
         height: 20vh;
     }
 
-    .btn-encrip-desencrip{
+    .btn-encrip-desencrip {
         display: flex;
         justify-content: space-around;
         width: auto;
         height: 47px;
     }
-    
-    .encriptar{
+
+    .encriptar {
         width: 45vw;
         height: 47px;
         text-align: center;
         padding: 2px;
     }
 
-    .desencriptar{
+    .desencriptar {
         width: 45vw;
         height: 47px;
         text-align: center;
         padding: 2px;
     }
 
-    .salida{
+    .salida {
         grid-column: 2/4;
         grid-row: 4/5;
         width: auto;
@@ -259,22 +264,20 @@ footer{
         margin-right: 22px;
     }
 
-    .salida-texto{
+    .salida-texto {
         width: 100%;
         height: 10vh;
         background-image: none;
     }
 
-    .copiar{
+    .copiar {
         width: auto;
         height: 47px;
         padding: 2px;
- 
+
     }
-    
+
 
 }
 
-@media (min-width:375px) and (max-width:933px){
-
-}
+@media (min-width:375px) and (max-width:933px) {}
