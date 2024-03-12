@@ -280,4 +280,8 @@ footer {
 
 }
 
-@media (min-width:375px) and (max-width:933px) {}
+@media (min-width:375px) and (max-width:933px) {
+    .frame6 {
+        align-content: flex-start;
+    }
+}
